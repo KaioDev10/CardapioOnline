@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pai do Burguer</title>
+
+<link rel="stylesheet" href="../Css/Cdp.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="menu-container">
+
+    <!-- Campo Nome -->
+    <div class="nome-box">
+        <input type="text" id="nomeCliente" placeholder="Digite seu nome para o pedido">
+    </div>
+
+  
+
+    <div id="produtos"></div>
+
+    <div class="total-box">
+        <h3>Total: R$ <span id="total">0.00</span></h3>
+        <button onclick="enviarPedido()">Enviar Pedido</button>
+    </div>
+
+</div>
+
+<script src="../JS/cdp.js"></script>
+</body>
+</html>
